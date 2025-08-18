@@ -1,0 +1,354 @@
+/* USER CODE BEGIN Header */
+/**
+  ******************************************************************************
+  * @file           : main.c
+  * @brief          : Main program body (RS485 Modbus + SHT21 I2C)
+  ******************************************************************************
+  */
+/* USER CODE END Header */
+
+/* Includes ------------------------------------------------------------------*/
+#include "main.h"
+#include "adc.h"
+#include "usart.h"
+#include "gpio.h"
+#include "i2c.h"    // I2C başlatma için
+#include <stdio.h>
+
+/* Private variables ---------------------------------------------------------*/
+volatile uint32_t pulse_count = 0;            // Rüzgar hızı için pulse sayısı
+volatile uint32_t last_interrupt_time = 0;    // Debounce zamanı
+uint32_t last_print_time = 0;                 // Son yazdırma zamanı
+uint32_t last_temp_read_time = 0;             // Son sıcaklık/nem okuma zamanı
+uint16_t temperature_raw = 0;                  // Ham sıcaklık değeri
+
+extern I2C_HandleTypeDef hi2c1;                // I2C1 handle (PB8=SCL, PB9=SDA)
+
+/* Private function prototypes -----------------------------------------------*/
+void SystemClock_Config(void);
+uint16_t Modbus_CRC16(uint8_t *buf, uint8_t len);
+HAL_StatusTypeDef Read_Temperature(uint16_t *temperature);
+HAL_StatusTypeDef Read_Humidity(uint16_t *humidity);
+float read_wind_direction_degrees(void);
+float calculate_wind_speed(uint32_t pulses, float interval_seconds);
+
+/* SHT21 fonksiyonları */
+uint16_t SHT21_ReadRaw(uint8_t cmd);
+float SHT21_ReadTemperature(void);
+float SHT21_ReadHumidity(void);
+
+/* DE/RE Pin tanımı (MAX485) */
+#define RS485_DE_RE_PIN GPIO_PIN_0
+#define RS485_DE_RE_PORT GPIOC
+
+/* UART printf için __io_putchar */
+int __io_putchar(int ch)
+{
+    HAL_UART_Transmit(&huart3, (uint8_t *)&ch, 1, HAL_MAX_DELAY);
+    return ch;
+}
+
+/* Modbus CRC16 Hesaplama */
+uint16_t Modbus_CRC16(uint8_t *buf, uint8_t len)
+{
+    uint16_t crc = 0xFFFF;
+    for (uint8_t pos = 0; pos < len; pos++)
+    {
+        crc ^= (uint16_t)buf[pos];
+        for (uint8_t i = 8; i != 0; i--)
+        {
+            if ((crc & 0x0001) != 0)
+            {
+                crc >>= 1;
+                crc ^= 0xA001;
+            }
+            else
+            {
+                crc >>= 1;
+            }
+        }
+    }
+    return crc;
+}
+
+/* Sıcaklık Okuma Fonksiyonu (RS485 - Modbus RTU) */
+HAL_StatusTypeDef Read_Temperature(uint16_t *temperature)
+{
+    uint8_t query[8] = {0x01, 0x03, 0x00, 0x20, 0x00, 0x01, 0x00, 0x00};  // 0x20 = 32 decimal
+    uint16_t crc = Modbus_CRC16(query, 6);
+    query[6] = crc & 0xFF;
+    query[7] = (crc >> 8) & 0xFF;
+
+    uint8_t response[7] = {0};
+
+    /* RS485 TX moduna geç */
+
+    //HAL_GPIO_WritePin(RS485_DE_RE_PORT, RS485_DE_RE_PIN, GPIO_PIN_SET);
+    HAL_Delay(1);
+
+    /* Komutu gönder */
+    HAL_StatusTypeDef status = HAL_UART_Transmit(&huart2, query, 8, 1000);
+
+    /* TX bittikten sonra RX moduna geç */
+    HAL_Delay(2);
+   // HAL_GPIO_WritePin(RS485_DE_RE_PORT, RS485_DE_RE_PIN, GPIO_PIN_RESET);
+
+    if (status != HAL_OK)
+        return status;
+
+    /* Modbus cevabını oku */
+    status = HAL_UART_Receive(&huart2, response, 7, 1000);
+    if (status != HAL_OK)
+        return status;
+
+    /* Cevap doğrulama */
+    if (response[0] != 0x01 || response[1] != 0x03)
+        return HAL_ERROR;
+
+    uint16_t crc_calc = Modbus_CRC16(response, 5);
+    uint16_t crc_recv = (response[6] << 8) | response[5];
+    if (crc_calc != crc_recv)
+        return HAL_ERROR;
+
+    /* Sıcaklık değerini ayıkla */
+    *temperature = (response[3] << 8) | response[4];
+
+    return HAL_OK;
+}
+
+/* Nem Okuma Fonksiyonu (RS485 - Modbus RTU) */
+HAL_StatusTypeDef Read_Humidity(uint16_t *humidity)
+{
+    uint8_t query[8] = {0x01, 0x03, 0x00, 0x21, 0x00, 0x01, 0x00, 0x00};  // 0x21 = 33 decimal
+
+    uint16_t crc = Modbus_CRC16(query, 6);
+    query[6] = crc & 0xFF;
+    query[7] = (crc >> 8) & 0xFF;
+
+    uint8_t response[7] = {0};
+
+    /* RS485 TX moduna geç */
+   // HAL_GPIO_WritePin(RS485_DE_RE_PORT, RS485_DE_RE_PIN, GPIO_PIN_SET);
+    HAL_Delay(20);
+
+    /* Komutu gönder */
+    HAL_StatusTypeDef status = HAL_UART_Transmit(&huart2, query, 8, 1000);
+
+    /* TX bittikten sonra RX moduna geç */
+    HAL_Delay(20);
+    //HAL_GPIO_WritePin(RS485_DE_RE_PORT, RS485_DE_RE_PIN, GPIO_PIN_RESET);
+
+    if (status != HAL_OK)
+        return status;
+
+    /* Modbus cevabını oku */
+    status = HAL_UART_Receive(&huart2, response, 7, 1000);
+    if (status != HAL_OK)
+        return status;
+
+    /* Cevap doğrulama */
+    if (response[0] != 0x01 || response[1] != 0x03)
+        return HAL_ERROR;
+
+    uint16_t crc_calc = Modbus_CRC16(response, 5);
+    uint16_t crc_recv = (response[5]) | (response[6] << 8);
+    if (crc_calc != crc_recv)
+        return HAL_ERROR;
+
+    /* Nem değerini ayıkla */
+    *humidity = (response[3] << 8) | response[4];
+
+    return HAL_OK;
+}
+
+/* Rüzgar yönü okuma */
+float read_wind_direction_degrees(void)
+{
+    HAL_ADC_Start(&hadc1);
+    HAL_ADC_PollForConversion(&hadc1, HAL_MAX_DELAY);
+    uint32_t adc_value = HAL_ADC_GetValue(&hadc1);
+    HAL_ADC_Stop(&hadc1);
+    float voltage = (adc_value * 3.3f) / 4095.0f;
+    float angle_deg = (voltage / 3.3f) * 360.0f;
+    return angle_deg;
+}
+
+/* Rüzgar hızı hesaplama */
+float calculate_wind_speed(uint32_t pulses, float interval_seconds)
+{
+    if (pulses == 0)
+    {
+        return 0;
+    }
+    return (0.41f * pulses) + 0.66f;
+}
+
+/* PA1 pini dış kesme callback (debounce uygulanmış) */
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+    if (GPIO_Pin == GPIO_PIN_1)
+    {
+        uint32_t now = HAL_GetTick();
+        if (now - last_interrupt_time > 200) // 200 ms debounce süresi
+        {
+            pulse_count++;
+            last_interrupt_time = now;
+        }
+    }
+}
+
+/* --- SHT21 I2C Okuma Fonksiyonları --- */
+#define SHT21_ADDR (0x40 << 1)  // 7-bit adres 0x40, HAL için 8-bit olarak sola kaydır
+
+uint16_t SHT21_ReadRaw(uint8_t cmd)
+{
+    uint8_t data[3] = {0};
+    HAL_I2C_Master_Transmit(&hi2c1, SHT21_ADDR, &cmd, 1, 100);
+    HAL_Delay(85);  // Ölçüm için datasheet önerisi max 85 ms
+
+    HAL_I2C_Master_Receive(&hi2c1, SHT21_ADDR, data, 3, 100);
+
+    uint16_t raw = (data[0] << 8) | data[1];
+    raw &= ~0x0003;  // Son 2 bit durum bitleri temizlenir
+
+    return raw;
+}
+
+float SHT21_ReadTemperature(void)
+{
+    uint16_t raw = SHT21_ReadRaw(0xF3);
+    // Datasheet formülü: T = -46.85 + 175.72 * (raw / 65536)
+    return -46.85f + 175.72f * ((float)raw / 65536.0f);
+}
+
+float SHT21_ReadHumidity(void)
+{
+    uint16_t raw = SHT21_ReadRaw(0xF5);
+    // Datasheet formülü: RH = -6 + 125 * (raw / 65536)
+    return -6.0f + 125.0f * ((float)raw / 65536.0f);
+}
+
+/* Main */
+int main(void)
+{
+    HAL_Init();
+    SystemClock_Config();
+
+    MX_GPIO_Init();
+    MX_ADC1_Init();
+    MX_USART2_UART_Init();  // RS485 UART
+    MX_USART3_UART_Init();  // Debug UART
+    MX_I2C1_Init();         // I2C1 PB8=SCL, PB9=SDA
+
+    /* DE/RE pini çıkış olarak ayarla ve başta RX modunda (0) */
+    HAL_GPIO_WritePin(RS485_DE_RE_PORT, RS485_DE_RE_PIN, GPIO_PIN_RESET);
+
+    last_print_time = HAL_GetTick();
+    last_temp_read_time = HAL_GetTick();
+
+    while (1)
+    {
+        uint32_t current_time = HAL_GetTick();
+
+        // Rüzgar verileri her 1 saniyede bir yazdır
+        if (current_time - last_print_time >= 1000)
+        {
+            float speed = calculate_wind_speed(pulse_count, 1.0f);
+            float direction = read_wind_direction_degrees();
+
+            printf("Ruzgar hizi: %.2f km/h, Ruzgar yonu: %.2f derece\r\n", speed, direction);
+            printf("pulse count=%lu\r\n", pulse_count);
+
+            pulse_count = 0;
+            last_print_time = current_time;
+        }
+
+        // RS485 ile sıcaklık ve nem, ayrıca SHT21 I2C ile sıcaklık ve nem her 2 saniyede bir
+        if (current_time - last_temp_read_time >= 2000)
+        {
+            // RS485 sıcaklık
+            if (Read_Temperature(&temperature_raw) == HAL_OK)
+            {
+                float tempC = temperature_raw / 10.0f;
+                printf("RS485 Sicaklik: %.1f C\r\n", tempC);
+            }
+            else
+            {
+               // printf("RS485 Sicaklik sensoru okuma hatasi\r\n");
+            }
+
+            // RS485 nem
+            uint16_t humidity_raw = 0;
+            if (Read_Humidity(&humidity_raw) == HAL_OK)
+            {
+                float humidity = humidity_raw / 10.0f;
+                printf("RS485 Nem: %.1f %%\r\n", humidity);
+            }
+            else
+            {
+                //printf("RS485 Nem sensoru okuma hatasi\r\n");
+            }
+
+            // SHT21 sıcaklık
+            float sht_temp = SHT21_ReadTemperature();
+            printf("SHT21 Sicaklik: %.2f C\r\n", sht_temp);
+
+            // SHT21 nem
+            float sht_hum = SHT21_ReadHumidity();
+            printf("SHT21 Nem: %.2f %%\r\n", sht_hum);
+
+            last_temp_read_time = current_time;
+        }
+    }
+}
+
+void SystemClock_Config(void)
+{
+    RCC_OscInitTypeDef RCC_OscInitStruct = {0};
+    RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+    RCC_PeriphCLKInitTypeDef PeriphClkInit = {0};
+
+    RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_LSI | RCC_OSCILLATORTYPE_HSE;
+    RCC_OscInitStruct.HSEState = RCC_HSE_BYPASS;
+    RCC_OscInitStruct.HSIState = RCC_HSI_ON;
+    RCC_OscInitStruct.LSIState = RCC_LSI_ON;
+    RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+    RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
+    RCC_OscInitStruct.PLL.PLLMUL = RCC_PLL_MUL9;
+    RCC_OscInitStruct.PLL.PREDIV = RCC_PREDIV_DIV1;
+    if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
+        Error_Handler();
+
+    RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK | RCC_CLOCKTYPE_SYSCLK |
+                                 RCC_CLOCKTYPE_PCLK1 | RCC_CLOCKTYPE_PCLK2;
+    RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
+    RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+    RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
+    RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
+    if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK)
+        Error_Handler();
+
+    PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_USART2 | RCC_PERIPHCLK_USART3 | RCC_PERIPHCLK_ADC12 | RCC_PERIPHCLK_I2C1;
+    PeriphClkInit.Usart2ClockSelection = RCC_USART2CLKSOURCE_PCLK1;
+    PeriphClkInit.Usart3ClockSelection = RCC_USART3CLKSOURCE_PCLK1;
+    PeriphClkInit.Adc12ClockSelection = RCC_ADC12PLLCLK_DIV1;
+    PeriphClkInit.I2c1ClockSelection = RCC_I2C1CLKSOURCE_SYSCLK;
+    if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
+        Error_Handler();
+}
+
+void Error_Handler(void)
+{
+    __disable_irq();
+    while (1)
+    {
+    }
+}
+
+#ifdef USE_FULL_ASSERT
+void assert_failed(uint8_t *file, uint32_t line)
+{
+    // Hata raporlama için printf kullanabilirsiniz
+    // printf("Assert failed: file %s on line %lu\r\n", file, line);
+}
+#endif /* USE_FULL_ASSERT */

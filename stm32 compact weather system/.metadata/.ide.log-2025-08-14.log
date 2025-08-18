@@ -1,0 +1,833 @@
+2025-08-14 13:24:36,380 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2025-08-14 13:24:37,945 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 2012mS.
+2025-08-14 13:24:37,946 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 1mS.
+2025-08-14 13:24:37,948 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2025-08-14 13:41:15,641 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 477939440 Bytes (797966336)
+2025-08-14 13:41:16,958 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 599605816 Bytes (797966336)
+2025-08-14 13:41:17,105 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 672479800 Bytes (797966336)
+2025-08-14 13:41:17,222 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-08-14 13:41:17,222 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: ADC
+2025-08-14 13:41:17,222 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-08-14 13:41:17,222 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2025-08-14 13:41:17,222 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RTC
+2025-08-14 13:41:17,222 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-08-14 13:41:17,222 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-08-14 13:41:17,222 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-08-14 13:41:17,222 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-08-14 13:41:17,222 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB
+2025-08-14 13:41:17,223 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-08-14 13:41:17,224 [INFO] CodeGenerator:892 - code generatio: config db path: C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.15.0.202507011659\\db\
+2025-08-14 13:41:17,326 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\MXTmpFiles\license.tmp_save
+2025-08-14 13:41:17,452 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\MXTmpFiles\license.tmp
+2025-08-14 13:41:17,516 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\gpio.c_save
+2025-08-14 13:41:17,586 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\gpio.c
+2025-08-14 13:41:17,591 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\gpio.h_save
+2025-08-14 13:41:17,637 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\gpio.h
+2025-08-14 13:41:17,869 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\adc.c_save
+2025-08-14 13:41:17,947 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\adc.c
+2025-08-14 13:41:17,951 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\adc.h_save
+2025-08-14 13:41:17,992 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\adc.h
+2025-08-14 13:41:17,999 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\i2c.c_save
+2025-08-14 13:41:18,054 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\i2c.c
+2025-08-14 13:41:18,058 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\i2c.h_save
+2025-08-14 13:41:18,098 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\i2c.h
+2025-08-14 13:41:18,105 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\rtc.c_save
+2025-08-14 13:41:18,179 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\rtc.c
+2025-08-14 13:41:18,186 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\rtc.h_save
+2025-08-14 13:41:18,226 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\rtc.h
+2025-08-14 13:41:18,233 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\usart.c_save
+2025-08-14 13:41:18,291 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\usart.c
+2025-08-14 13:41:18,295 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\usart.h_save
+2025-08-14 13:41:18,337 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\usart.h
+2025-08-14 13:41:18,345 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\usb.c_save
+2025-08-14 13:41:18,401 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\usb.c
+2025-08-14 13:41:18,405 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\usb.h_save
+2025-08-14 13:41:18,448 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\usb.h
+2025-08-14 13:41:18,457 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\stm32f3xx_it.c_save
+2025-08-14 13:41:18,552 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\stm32f3xx_it.c
+2025-08-14 13:41:18,556 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\stm32f3xx_it.h_save
+2025-08-14 13:41:18,595 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\stm32f3xx_it.h
+2025-08-14 13:41:18,605 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\stm32f3xx_hal_msp.c_save
+2025-08-14 13:41:18,660 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\stm32f3xx_hal_msp.c
+2025-08-14 13:41:18,663 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\MXTmpFiles\system.tmp_save
+2025-08-14 13:41:18,701 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\MXTmpFiles\system.tmp
+2025-08-14 13:41:18,708 [INFO] CodeEngine:321 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-08-14 13:41:18,752 [INFO] CodeEngine:345 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\stm32f3xx_hal_conf.h
+2025-08-14 13:41:18,770 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\main.h_save
+2025-08-14 13:41:18,823 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\main.h
+2025-08-14 13:41:18,827 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\main.c_save
+2025-08-14 13:41:18,892 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\main.c
+2025-08-14 13:41:19,081 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 81mS.
+2025-08-14 13:41:19,084 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2025-08-14 13:41:19,181 [INFO] ConfigFileManager:1595 - The Die is : DIE446
+2025-08-14 13:41:20,193 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 1108mS.
+2025-08-14 13:41:20,193 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2025-08-14 13:41:20,197 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 1mS.
+2025-08-14 13:51:12,428 [INFO] I2cTimingTraitement:330 - 0x00201D2B
+2025-08-14 13:57:07,461 [INFO] I2cTimingTraitement:330 - 0x00201D2B
+2025-08-14 13:57:07,998 [INFO] I2cTimingTraitement:330 - 0x00201D2B
+2025-08-14 13:57:10,664 [INFO] I2cTimingTraitement:330 - 0x00201D2B
+2025-08-14 13:57:10,982 [INFO] I2cTimingTraitement:330 - 0x00201D2B
+2025-08-14 13:57:15,003 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 723646400 Bytes (874512384)
+2025-08-14 13:57:16,811 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 797573056 Bytes (874512384)
+2025-08-14 13:57:19,205 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 330176192 Bytes (874512384)
+2025-08-14 13:57:19,759 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-08-14 13:57:19,759 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: ADC
+2025-08-14 13:57:19,760 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-08-14 13:57:19,760 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2025-08-14 13:57:19,760 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RTC
+2025-08-14 13:57:19,761 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-08-14 13:57:19,761 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-08-14 13:57:19,761 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-08-14 13:57:19,761 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-08-14 13:57:19,761 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB
+2025-08-14 13:57:19,762 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-08-14 13:57:19,765 [INFO] CodeGenerator:892 - code generatio: config db path: C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.15.0.202507011659\\db\
+2025-08-14 13:57:19,972 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\MXTmpFiles\license.tmp_save
+2025-08-14 13:57:20,203 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\MXTmpFiles\license.tmp
+2025-08-14 13:57:20,316 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\gpio.c_save
+2025-08-14 13:57:20,467 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\gpio.c
+2025-08-14 13:57:20,480 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\gpio.h_save
+2025-08-14 13:57:20,592 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\gpio.h
+2025-08-14 13:57:21,117 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\adc.c_save
+2025-08-14 13:57:21,247 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\adc.c
+2025-08-14 13:57:21,252 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\adc.h_save
+2025-08-14 13:57:21,316 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\adc.h
+2025-08-14 13:57:21,327 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\i2c.c_save
+2025-08-14 13:57:21,424 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\i2c.c
+2025-08-14 13:57:21,434 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\i2c.h_save
+2025-08-14 13:57:21,484 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\i2c.h
+2025-08-14 13:57:21,492 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\rtc.c_save
+2025-08-14 13:57:21,548 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\rtc.c
+2025-08-14 13:57:21,553 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\rtc.h_save
+2025-08-14 13:57:21,596 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\rtc.h
+2025-08-14 13:57:21,602 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\usart.c_save
+2025-08-14 13:57:21,672 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\usart.c
+2025-08-14 13:57:21,678 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\usart.h_save
+2025-08-14 13:57:21,732 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\usart.h
+2025-08-14 13:57:21,743 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\usb.c_save
+2025-08-14 13:57:21,822 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\usb.c
+2025-08-14 13:57:21,828 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\usb.h_save
+2025-08-14 13:57:21,882 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\usb.h
+2025-08-14 13:57:21,896 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\stm32f3xx_it.c_save
+2025-08-14 13:57:22,024 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\stm32f3xx_it.c
+2025-08-14 13:57:22,031 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\stm32f3xx_it.h_save
+2025-08-14 13:57:22,079 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\stm32f3xx_it.h
+2025-08-14 13:57:22,090 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\stm32f3xx_hal_msp.c_save
+2025-08-14 13:57:22,150 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\stm32f3xx_hal_msp.c
+2025-08-14 13:57:22,154 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\MXTmpFiles\system.tmp_save
+2025-08-14 13:57:22,198 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\MXTmpFiles\system.tmp
+2025-08-14 13:57:22,208 [INFO] CodeEngine:321 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-08-14 13:57:22,255 [INFO] CodeEngine:345 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\stm32f3xx_hal_conf.h
+2025-08-14 13:57:22,283 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\main.h_save
+2025-08-14 13:57:22,346 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\main.h
+2025-08-14 13:57:22,351 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\main.c_save
+2025-08-14 13:57:22,426 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\main.c
+2025-08-14 13:57:22,642 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 92mS.
+2025-08-14 13:57:22,645 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2025-08-14 13:57:22,707 [INFO] ConfigFileManager:1595 - The Die is : DIE446
+2025-08-14 13:57:23,774 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 1129mS.
+2025-08-14 13:57:23,775 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2025-08-14 13:57:23,777 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 1mS.
+2025-08-14 13:57:47,326 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,492x131,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-08-14 13:59:59,774 [INFO] I2cTimingTraitement:330 - 0x00201D2B
+2025-08-14 14:00:00,068 [INFO] I2cTimingTraitement:330 - 0x00201D2B
+2025-08-14 14:00:02,316 [INFO] I2cTimingTraitement:330 - 0x00201D2B
+2025-08-14 14:00:02,528 [INFO] I2cTimingTraitement:330 - 0x00201D2B
+2025-08-14 14:00:08,459 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 755059800 Bytes (874512384)
+2025-08-14 14:00:10,638 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 306177560 Bytes (874512384)
+2025-08-14 14:00:15,906 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 417549240 Bytes (874512384)
+2025-08-14 14:00:16,453 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-08-14 14:00:16,453 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: ADC
+2025-08-14 14:00:16,453 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-08-14 14:00:16,453 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2025-08-14 14:00:16,453 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RTC
+2025-08-14 14:00:16,453 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-08-14 14:00:16,453 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-08-14 14:00:16,453 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-08-14 14:00:16,453 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-08-14 14:00:16,453 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB
+2025-08-14 14:00:16,455 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-08-14 14:00:16,456 [INFO] CodeGenerator:892 - code generatio: config db path: C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.15.0.202507011659\\db\
+2025-08-14 14:00:16,597 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\MXTmpFiles\license.tmp_save
+2025-08-14 14:00:16,749 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\MXTmpFiles\license.tmp
+2025-08-14 14:00:16,822 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\gpio.c_save
+2025-08-14 14:00:16,935 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\gpio.c
+2025-08-14 14:00:16,941 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\gpio.h_save
+2025-08-14 14:00:17,026 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\gpio.h
+2025-08-14 14:00:17,392 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\adc.c_save
+2025-08-14 14:00:17,484 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\adc.c
+2025-08-14 14:00:17,490 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\adc.h_save
+2025-08-14 14:00:17,558 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\adc.h
+2025-08-14 14:00:17,572 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\i2c.c_save
+2025-08-14 14:00:17,652 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\i2c.c
+2025-08-14 14:00:17,658 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\i2c.h_save
+2025-08-14 14:00:17,700 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\i2c.h
+2025-08-14 14:00:17,708 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\rtc.c_save
+2025-08-14 14:00:17,766 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\rtc.c
+2025-08-14 14:00:17,770 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\rtc.h_save
+2025-08-14 14:00:17,812 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\rtc.h
+2025-08-14 14:00:17,820 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\usart.c_save
+2025-08-14 14:00:17,883 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\usart.c
+2025-08-14 14:00:17,888 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\usart.h_save
+2025-08-14 14:00:17,931 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\usart.h
+2025-08-14 14:00:17,939 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\usb.c_save
+2025-08-14 14:00:17,994 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\usb.c
+2025-08-14 14:00:17,998 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\usb.h_save
+2025-08-14 14:00:18,039 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\usb.h
+2025-08-14 14:00:18,049 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\stm32f3xx_it.c_save
+2025-08-14 14:00:18,098 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\stm32f3xx_it.c
+2025-08-14 14:00:18,103 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\stm32f3xx_it.h_save
+2025-08-14 14:00:18,150 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\stm32f3xx_it.h
+2025-08-14 14:00:18,162 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\stm32f3xx_hal_msp.c_save
+2025-08-14 14:00:18,225 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\stm32f3xx_hal_msp.c
+2025-08-14 14:00:18,229 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\MXTmpFiles\system.tmp_save
+2025-08-14 14:00:18,265 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\MXTmpFiles\system.tmp
+2025-08-14 14:00:18,277 [INFO] CodeEngine:321 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-08-14 14:00:18,332 [INFO] CodeEngine:345 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\stm32f3xx_hal_conf.h
+2025-08-14 14:00:18,353 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\main.h_save
+2025-08-14 14:00:18,401 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\main.h
+2025-08-14 14:00:18,406 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\main.c_save
+2025-08-14 14:00:18,525 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\main.c
+2025-08-14 14:00:18,748 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 85mS.
+2025-08-14 14:00:18,751 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2025-08-14 14:00:18,808 [INFO] ConfigFileManager:1595 - The Die is : DIE446
+2025-08-14 14:00:19,727 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 976mS.
+2025-08-14 14:00:19,728 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2025-08-14 14:00:19,732 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2025-08-14 16:30:14,573 [INFO] WebApp:194 - Connection lost
+2025-08-14 16:30:14,997 [INFO] WebApp:191 - Connection restablished
+2025-08-14 16:30:23,972 [INFO] WebApp:194 - Connection lost
+2025-08-14 16:30:24,128 [INFO] WebApp:191 - Connection restablished
+2025-08-14 16:56:20,347 [INFO] WebApp:194 - Connection lost
+2025-08-14 16:56:20,718 [INFO] WebApp:191 - Connection restablished
+2025-08-14 16:56:29,507 [INFO] WebApp:194 - Connection lost
+2025-08-14 16:56:29,659 [INFO] WebApp:191 - Connection restablished
+2025-08-14 17:01:16,810 [INFO] I2cTimingTraitement:330 - 0x00201D2B
+2025-08-14 17:01:17,071 [INFO] I2cTimingTraitement:330 - 0x00201D2B
+2025-08-14 17:01:17,652 [INFO] I2cTimingTraitement:330 - 0x00201D2B
+2025-08-14 17:01:37,337 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,337 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,340 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,340 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,340 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,340 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,342 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,343 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,435 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,436 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,436 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,436 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,436 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,436 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,437 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,437 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,437 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,437 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,437 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,438 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,438 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,438 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,438 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,438 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,438 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,438 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,438 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,439 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,439 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,439 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,439 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,439 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,439 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,439 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,439 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,439 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,439 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,439 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,440 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,440 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,440 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,440 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,440 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,441 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:37,492 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,493 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,494 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,495 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,495 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,495 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,496 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:37,497 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,692 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,754 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,801 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,801 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,801 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,801 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,801 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,801 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,801 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:46,891 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,891 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,891 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,891 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,891 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,891 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,891 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:46,891 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,021 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,068 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,068 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,068 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,068 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,068 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,068 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,068 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,068 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,115 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:47,160 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,160 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,160 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,160 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,160 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,160 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,160 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:01:47,160 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:01:51,777 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 729129528 Bytes (874512384)
+2025-08-14 17:01:53,601 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 793014928 Bytes (874512384)
+2025-08-14 17:01:59,907 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 334119424 Bytes (874512384)
+2025-08-14 17:02:00,444 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-08-14 17:02:00,444 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: ADC
+2025-08-14 17:02:00,444 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-08-14 17:02:00,444 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2025-08-14 17:02:00,444 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RTC
+2025-08-14 17:02:00,444 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-08-14 17:02:00,444 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-08-14 17:02:00,444 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-08-14 17:02:00,444 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-08-14 17:02:00,444 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB
+2025-08-14 17:02:00,444 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-08-14 17:02:00,444 [INFO] CodeGenerator:892 - code generatio: config db path: C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.15.0.202507011659\\db\
+2025-08-14 17:02:00,570 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\MXTmpFiles\license.tmp_save
+2025-08-14 17:02:00,795 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\MXTmpFiles\license.tmp
+2025-08-14 17:02:00,872 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\gpio.c_save
+2025-08-14 17:02:01,028 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\gpio.c
+2025-08-14 17:02:01,036 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\gpio.h_save
+2025-08-14 17:02:01,135 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\gpio.h
+2025-08-14 17:02:01,576 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\adc.c_save
+2025-08-14 17:02:01,746 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\adc.c
+2025-08-14 17:02:01,752 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\adc.h_save
+2025-08-14 17:02:01,819 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\adc.h
+2025-08-14 17:02:01,833 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\i2c.c_save
+2025-08-14 17:02:01,923 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\i2c.c
+2025-08-14 17:02:01,928 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\i2c.h_save
+2025-08-14 17:02:01,987 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\i2c.h
+2025-08-14 17:02:01,997 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\rtc.c_save
+2025-08-14 17:02:02,075 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\rtc.c
+2025-08-14 17:02:02,081 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\rtc.h_save
+2025-08-14 17:02:02,142 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\rtc.h
+2025-08-14 17:02:02,151 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\usart.c_save
+2025-08-14 17:02:02,238 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\usart.c
+2025-08-14 17:02:02,246 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\usart.h_save
+2025-08-14 17:02:02,306 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\usart.h
+2025-08-14 17:02:02,320 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\usb.c_save
+2025-08-14 17:02:02,404 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\usb.c
+2025-08-14 17:02:02,410 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\usb.h_save
+2025-08-14 17:02:02,472 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\usb.h
+2025-08-14 17:02:02,486 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\stm32f3xx_it.c_save
+2025-08-14 17:02:02,630 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\stm32f3xx_it.c
+2025-08-14 17:02:02,636 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\stm32f3xx_it.h_save
+2025-08-14 17:02:02,691 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\stm32f3xx_it.h
+2025-08-14 17:02:02,707 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\stm32f3xx_hal_msp.c_save
+2025-08-14 17:02:02,788 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\stm32f3xx_hal_msp.c
+2025-08-14 17:02:02,795 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\MXTmpFiles\system.tmp_save
+2025-08-14 17:02:02,846 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\MXTmpFiles\system.tmp
+2025-08-14 17:02:02,857 [INFO] CodeEngine:321 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-08-14 17:02:02,911 [INFO] CodeEngine:345 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\stm32f3xx_hal_conf.h
+2025-08-14 17:02:02,941 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\main.h_save
+2025-08-14 17:02:03,010 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\main.h
+2025-08-14 17:02:03,015 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\main.c_save
+2025-08-14 17:02:03,085 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\main.c
+2025-08-14 17:02:03,308 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 93mS.
+2025-08-14 17:02:03,311 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2025-08-14 17:02:03,374 [INFO] ConfigFileManager:1595 - The Die is : DIE446
+2025-08-14 17:02:04,620 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 1309mS.
+2025-08-14 17:02:04,622 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2025-08-14 17:02:04,625 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2025-08-14 17:19:47,954 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,954 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:47,970 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:47,985 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,985 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,985 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,985 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,985 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,985 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,985 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:47,985 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,019 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,034 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,034 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,034 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,034 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,034 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,034 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,050 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,050 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,146 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,193 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,193 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,193 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,193 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,193 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,193 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,209 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,209 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,307 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,307 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,307 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,307 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,307 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,307 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,307 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,307 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,512 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,543 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,543 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,543 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,543 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,543 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,543 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,543 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,543 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,606 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:19:48,656 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,656 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,657 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,657 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,657 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,657 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,657 [INFO] ADCParametersView:116 -                SequencerNbRanks 1 : true
+2025-08-14 17:19:48,658 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-14 17:20:02,778 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 294155176 Bytes (874512384)
+2025-08-14 17:20:04,116 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 341341096 Bytes (874512384)
+2025-08-14 17:20:06,043 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 395344808 Bytes (874512384)
+2025-08-14 17:20:06,265 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-08-14 17:20:06,265 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: ADC
+2025-08-14 17:20:06,265 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-08-14 17:20:06,265 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2025-08-14 17:20:06,265 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RTC
+2025-08-14 17:20:06,265 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-08-14 17:20:06,265 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-08-14 17:20:06,265 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-08-14 17:20:06,265 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-08-14 17:20:06,265 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB
+2025-08-14 17:20:06,266 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-08-14 17:20:06,267 [INFO] CodeGenerator:892 - code generatio: config db path: C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.15.0.202507011659\\db\
+2025-08-14 17:20:06,348 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\MXTmpFiles\license.tmp_save
+2025-08-14 17:20:06,607 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\MXTmpFiles\license.tmp
+2025-08-14 17:20:06,686 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\gpio.c_save
+2025-08-14 17:20:06,815 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\gpio.c
+2025-08-14 17:20:06,820 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\gpio.h_save
+2025-08-14 17:20:06,903 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\gpio.h
+2025-08-14 17:20:07,295 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\adc.c_save
+2025-08-14 17:20:07,413 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\adc.c
+2025-08-14 17:20:07,418 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\adc.h_save
+2025-08-14 17:20:07,479 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\adc.h
+2025-08-14 17:20:07,488 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\i2c.c_save
+2025-08-14 17:20:07,549 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\i2c.c
+2025-08-14 17:20:07,553 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\i2c.h_save
+2025-08-14 17:20:07,592 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\i2c.h
+2025-08-14 17:20:07,600 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\rtc.c_save
+2025-08-14 17:20:07,664 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\rtc.c
+2025-08-14 17:20:07,671 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\rtc.h_save
+2025-08-14 17:20:07,702 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\rtc.h
+2025-08-14 17:20:07,718 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\usart.c_save
+2025-08-14 17:20:07,784 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\usart.c
+2025-08-14 17:20:07,789 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\usart.h_save
+2025-08-14 17:20:07,838 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\usart.h
+2025-08-14 17:20:07,838 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\usb.c_save
+2025-08-14 17:20:07,900 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\usb.c
+2025-08-14 17:20:07,900 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\usb.h_save
+2025-08-14 17:20:07,947 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\usb.h
+2025-08-14 17:20:07,963 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\stm32f3xx_it.c_save
+2025-08-14 17:20:08,067 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\stm32f3xx_it.c
+2025-08-14 17:20:08,067 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\stm32f3xx_it.h_save
+2025-08-14 17:20:08,112 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\stm32f3xx_it.h
+2025-08-14 17:20:08,112 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\stm32f3xx_hal_msp.c_save
+2025-08-14 17:20:08,174 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\stm32f3xx_hal_msp.c
+2025-08-14 17:20:08,174 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\MXTmpFiles\system.tmp_save
+2025-08-14 17:20:08,221 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\MXTmpFiles\system.tmp
+2025-08-14 17:20:08,221 [INFO] CodeEngine:321 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-08-14 17:20:08,270 [INFO] CodeEngine:345 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\stm32f3xx_hal_conf.h
+2025-08-14 17:20:08,286 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\main.h_save
+2025-08-14 17:20:08,348 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Inc\main.h
+2025-08-14 17:20:08,348 [INFO] CodeEngine:265 - oldGeneratedFile, C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\main.c_save
+2025-08-14 17:20:08,412 [INFO] CodeEngine:289 - Generated code: C:\Users\uemre\STM32CubeIDE\workspace_1.19.0\denem7\denem7\Core\Src\main.c
+2025-08-14 17:20:08,620 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 88mS.
+2025-08-14 17:20:08,620 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2025-08-14 17:20:08,680 [INFO] ConfigFileManager:1595 - The Die is : DIE446
+2025-08-14 17:20:09,241 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 620mS.
+2025-08-14 17:20:09,245 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 4mS.
+2025-08-14 17:20:09,247 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2025-08-14 17:41:00,086 [INFO] WebApp:194 - Connection lost
+2025-08-14 17:41:00,814 [INFO] WebApp:191 - Connection restablished
+2025-08-14 17:41:09,462 [INFO] WebApp:194 - Connection lost
+2025-08-14 17:41:09,628 [INFO] WebApp:191 - Connection restablished
+2025-08-14 18:22:18,761 [INFO] WebApp:194 - Connection lost
+2025-08-14 18:22:18,964 [INFO] WebApp:191 - Connection restablished
+2025-08-14 18:22:27,968 [INFO] WebApp:194 - Connection lost
+2025-08-14 18:22:28,130 [INFO] WebApp:191 - Connection restablished
+2025-08-14 18:22:30,901 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-08-14 18:22:30,902 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 

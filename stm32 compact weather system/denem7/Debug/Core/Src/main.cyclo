@@ -1,0 +1,15 @@
+../Core/Src/main.c:41:5:__io_putchar	1
+../Core/Src/main.c:47:10:Modbus_CRC16	4
+../Core/Src/main.c:69:19:Read_Temperature	6
+../Core/Src/main.c:97:19:Read_Humidity	6
+../Core/Src/main.c:126:19:Read_Radiation	6
+../Core/Src/main.c:158:7:Read_PT1000_Temperature	6
+../Core/Src/main.c:207:7:read_wind_direction_degrees	1
+../Core/Src/main.c:217:7:calculate_wind_speed	2
+../Core/Src/main.c:224:6:HAL_GPIO_EXTI_Callback	3
+../Core/Src/main.c:239:10:SHT21_ReadRaw	1
+../Core/Src/main.c:250:7:SHT21_ReadTemperature	1
+../Core/Src/main.c:256:7:SHT21_ReadHumidity	1
+../Core/Src/main.c:262:5:main	9
+../Core/Src/main.c:328:6:SystemClock_Config	4
+../Core/Src/main.c:363:6:Error_Handler	1
